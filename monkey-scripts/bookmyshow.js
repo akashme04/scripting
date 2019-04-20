@@ -12,10 +12,10 @@
 //interval = number of min b/w each check (in sec, default = 5min),
 //theatres = names of the theatre (should be exact and the numbers can be anything.)
 //date and interval are required fields, theatres is optional and can be left empty so that sound will be played even if one theatre is present for that movie.
-var date = 24, interval = 5*60;
+var date = 21, interval = 2*60;
 var theatres = {};
-theatres['Luxes Cinemas: Chennai'] = 1;
-theatres['Rohinis Silver Screens: Chennai'] = 2;
+theatres[''] = 1;
+//theatres['Ro'] = 2;
 var audioLink = 'http://m63.telugu1.download/tere63xrc4wzse/Antasthulu%20-%20%281965%29/%5BiSongs.info%5D%20Ninu%20Veedani%20Needanu%20Nene.mp3';
 window.onload = readDocument;
 
